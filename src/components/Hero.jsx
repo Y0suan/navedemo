@@ -23,14 +23,14 @@ const Hero = () => {
 
   return (
     <Section
-      className="pt-[12rem] -mt-[5.25rem]"
+      className="sm:pt-[12rem] -mt-[5.25rem]"
       crosses
       crossesOffset="lg:translate-y-[5.25rem]"
       customPaddings
       id="hero"
     >
       <div className="container relative " ref={parallaxRef}>
-      <div className=" z-20 relative w-full  h-[100vh] flex justify-center   flex-col items-stard px-20 " >
+      <div className=" z-20 relative w-full  h-[100vh] flex justify-center   flex-col items-stard sm:px-20 " >
     <motion.h1 style={{ y, scale }} className="sm:text-[11rem] text-7xl bento  text-stard  leading-tight" >Nave</motion.h1>
     <p className="sm:w-1/3" >Bienvenidos a NAVE Productora, expertos en crear y organizar eventos excepcionales, brindando experiencias únicas que superan las expectativas de nuestros clientes.</p>
     <h1 className="  absolute right-6 text-slate-200/5 sm:text-slate-200 text-[6rem] bento p-0 text-stard  leading-none " >N<br/>a<br/>v<br/>e</h1>
